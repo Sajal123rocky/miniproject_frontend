@@ -8,6 +8,8 @@ import Transactions from './pages/Transactions';
 import Contact from './pages/Contact';
 import Login from './pages/Login'
 import Home from './pages/Home'
+import Fund from './pages/Fund'
+import GetStarted from './pages/GetStarted';
 import {
   createBrowserRouter,
   RouterProvider,
@@ -41,6 +43,14 @@ const router = createBrowserRouter([
      path: "home",
     element: <Home />,
    },
+   {
+    path: "fund",
+   element: <Fund />,
+  },
+  {
+    path: "getstarted",
+   element: <GetStarted />,
+  },
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

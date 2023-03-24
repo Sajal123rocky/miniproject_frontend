@@ -1,24 +1,21 @@
-import Button from 'react-bootstrap/Button';
-import Card from 'react-bootstrap/Card';
-import {Link} from 'react-router-dom'
+import React from "react";
 
-function BasicExample(props) {
+function Card(props) {
   return (
-     <Card className="card">
-     <div className="wrapper">
-      <Card.Img variant="top" src={props.img} className="cardimg"/>
+    <div className="flipCard" style={{margin:"5px"}}>
+    <div className="card">
+      <div className="top">
+        <h2 className="name">{props.name}</h2>
+        {/* <img className="circle-img" src={props.img} alt="avatar_img" /> */}
       </div>
-      <Card.Body>
-        <Card.Title>{props.name}</Card.Title>
-        
-        <Card.Text>
-        
-        </Card.Text>
-        <Link to='/Details' className="Go">Click for details</Link>
-        
-      </Card.Body>
-    </Card>
+      <div className="bottom">
+        <p className="info">{props.tel}</p>
+        <a type="email" className="info" href={props.email} >{props.email}</a>
+      </div>
+    </div>
+    </div>
   );
+  
 }
 
-export default BasicExample;
+export default Card;
