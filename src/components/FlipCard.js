@@ -2,7 +2,10 @@ import React, { useState } from "react";
 import ReactCardFlip from "react-card-flip";
 import { Link } from "react-router-dom";
 import Transactions from "../pages/Transactions";
+import project from "../ProjectContract";
+
 function FlipCard(props) {
+	
 	const [flip, setFlip] = useState(false);
 	return (
         <div className="flipCard">
@@ -47,6 +50,7 @@ function FlipCard(props) {
                 {props.content}
                 </div>
                 <Link to='/Transactions' >
+				
                     <button className="flipbutton" style={{
                     
 					width: '85px',

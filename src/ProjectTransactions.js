@@ -1,10 +1,193 @@
-const transactions =[
+const  transdetails=[
     {
         id:1,
-        description:"this is a traansaction"
+        transid:1234,
+        amount:2000,
+        name:"A",
+        to:"B",
+        type:"W",
+        url:"link1"
     },
     {
         id:2,
-        description:"this is a traansaction"
+        transid:1234,
+        amount:3000,
+        name:"P",
+        to:"Q",
+        type:"D",
+        url:""
+    },
+    {
+        id:3,
+        transid:1234,
+        amount:4000,
+        name:"R",
+        to:"S",
+        type:"D",
+        url:""
+    },
+    {
+        id:4,
+        transid:1234,
+        amount:2000,
+        name:"X",
+        to:"Y",
+        type:"W",
+        url:"link1"
     }
-]
+];
+ const  transdetails1=[
+    {
+        id:1,
+        transid:1234,
+        amount:2000,
+        name:"A",
+        to:"B",
+        type:"W",
+        url:"link1"
+    },
+    {
+        id:2,
+        transid:1234,
+        amount:3000,
+        name:"P",
+        to:"Q",
+        type:"D",
+        url:""
+    },
+    {
+        id:3,
+        transid:1234,
+        amount:4000,
+        name:"R",
+        to:"S",
+        type:"D",
+        url:""
+    },
+    {
+        id:4,
+        transid:1234,
+        amount:2000,
+        name:"X",
+        to:"Y",
+        type:"W",
+        url:"link1"
+    }
+];
+const  transdetails2=[
+    {
+        id:1,
+        transid:1234,
+        amount:2000,
+        name:"A",
+        to:"B",
+        type:"W",
+        url:"link1"
+    },
+    {
+        id:2,
+        transid:1234,
+        amount:3000,
+        name:"P",
+        to:"Q",
+        type:"D",
+        url:""
+    },
+    {
+        id:3,
+        transid:1234,
+        amount:4000,
+        name:"R",
+        to:"S",
+        type:"D",
+        url:""
+    },
+    {
+        id:4,
+        transid:1234,
+        amount:2000,
+        name:"X",
+        to:"Y",
+        type:"W",
+        url:"link1"
+    }
+];
+const  transdetails3=[
+    {
+        id:1,
+        transid:1234,
+        amount:2000,
+        name:"A",
+        to:"B",
+        type:"W",
+        url:"link1"
+    },
+    {
+        id:2,
+        transid:1234,
+        amount:3000,
+        name:"P",
+        to:"Q",
+        type:"D",
+        url:""
+    },
+    {
+        id:3,
+        transid:1234,
+        amount:4000,
+        name:"R",
+        to:"S",
+        type:"D",
+        url:""
+    },
+    {
+        id:4,
+        transid:1234,
+        amount:2000,
+        name:"X",
+        to:"Y",
+        type:"W",
+        url:"link1"
+    }
+];
+const  transdetails4=[
+    {
+        id:1,
+        transid:1234,
+        amount:2000,
+        name:"A",
+        to:"B",
+        type:"W",
+        url:"link1"
+    },
+    {
+        id:2,
+        transid:1234,
+        amount:3000,
+        name:"P",
+        to:"Q",
+        type:"D",
+        url:""
+    },
+    {
+        id:3,
+        transid:1234,
+        amount:4000,
+        name:"R",
+        to:"S",
+        type:"D",
+        url:""
+    },
+    {
+        id:4,
+        transid:1234,
+        amount:2000,
+        name:"X",
+        to:"Y",
+        type:"W",
+        url:"link1"
+    }
+];
+export default transdetails;
+export {transdetails1,transdetails2,transdetails3,transdetails4};
+

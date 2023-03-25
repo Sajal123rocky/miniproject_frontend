@@ -1,8 +1,9 @@
 *{margin:0;padding:0}
 .Navbar{
-     display:flex;  
+     display:flex; 
+     
     justify-content: space-between;
-    background-color:#1B1840;
+    background-color:#2c3033f5;
     padding: 10px 16px;
     margin-bottom: 16px;
     
@@ -281,8 +282,9 @@
 }
 
 .home-image{
-  float:left;
-  margin-left:10px;
+  float:left; 
+  /* margin-left:10px; */
+  margin-left: 0.75%;
   margin-top:10px;
   border-radius: 20px;
 }
@@ -309,3 +311,55 @@
   font-size: 50px;
   text-align: center;
 }
+th{
+  text-align: center;
+  
+}
+
+th{
+  padding:20px;
+  text-align: left;
+}
+td{
+  padding:20px;
+}
+table {
+  border-collapse: collapse;
+  
+} 
+.tablelist{
+  display:flex;
+    list-style-type: none;
+    gap:30px;
+    margin: 20px;
+    align-items: center;
+    z-index: 1200;
+    transition:all .4s linear;
+}
+.tablelists{
+  display:flex;
+    list-style-type: none;
+    gap:30px;
+    margin: 20px;
+    margin-left:30px;
+    align-items: center;
+    z-index: 1200;
+    transition:all .4s linear;
+}
+.tli{
+  display:flex;
+list-style-type: none;
+gap:30px;
+margin: 20px;
+align-items: center;
+}
+.transaction-container{
+  background-color:rgba(29,28,35,255);
+  color:white;
+  width:600px;
+  margin-left:28%;
+  margin-top:6%;
+  border-radius: 20px;
+}
+
+

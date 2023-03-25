@@ -15,7 +15,7 @@ function Navbar() {
   return (
     <div >
     <div className='Navbar'>
-        <h1 className='logo'>TrustMyFund</h1>
+        <Link to="/Home"><h1 className='logo'>TrustMyFund</h1></Link>
         
         <ul className="navbar-menu">
             <li ><NavLink to="/Home" style={({ isActive }) => ({ 
