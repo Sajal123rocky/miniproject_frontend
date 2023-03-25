@@ -2,38 +2,43 @@ const  transdetails=[
     {
         id:1,
         transid:1234,
-        amount:2000,
+        amount:"Rs. "+2000,
         name:"A",
         to:"B",
-        type:"W",
-        url:"link1"
+        type:"Withdraw",
+        url:"link1",
+        status:"Success"
     },
     {
         id:2,
         transid:1234,
-        amount:3000,
+        amount:"Rs. "+3000,
         name:"P",
         to:"Q",
-        type:"D",
-        url:""
+        type:"Deposit",
+        url:"",
+        status:"Failure"
+        
     },
     {
         id:3,
         transid:1234,
-        amount:4000,
+        amount:"Rs. "+4000,
         name:"R",
         to:"S",
-        type:"D",
-        url:""
+        type:"Deposit",
+        url:"",
+        status:"Success"
     },
     {
         id:4,
         transid:1234,
-        amount:2000,
+        amount:"Rs. "+2000,
         name:"X",
         to:"Y",
-        type:"W",
-        url:"link1"
+        type:"Withdraw",
+        url:"link1",
+        status:"Failure"
     }
 ];
  const  transdetails1=[

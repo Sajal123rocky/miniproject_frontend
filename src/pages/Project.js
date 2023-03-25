@@ -18,6 +18,7 @@ function Project() {
       address={entry.address}
       fund={entry.fund}
       balance={entry.balance}
+      
       />
     );
   }

@@ -20,15 +20,29 @@ function Transactions(props) {
         type={entry.type}
         url={entry.url}
         amount={entry.amount}
+        status={entry.status}
       />
     );
   }
+  const [selectValue, setSelectValue] = React.useState("Withdraw");
+  const onChange = (event) => {
+    const value = event.target.value;
+    console.log(event.target.value);
+    setSelectValue(value);
+  };
   return (
     <MainLayout>
       <div className='transaction-container'>
       <h1 style={{color:"white",marginLeft:"30px",paddingTop:"10px"}}>Transactions</h1>
+      <select  style={{color:"black",marginLeft:"30px",paddingTop:"10px",textAlign:"center"}} onChange={onChange} className="form-select" >
+        <option defaultValue disabled>
+          Select Type
+        </option>
+        <option value="Withdraw">Withdraw</option>
+        <option value="Deposit">Deposit</option>
+      </select>
      
-        <ul className="tablelist">
+        {/* <ul className="tablelist">
         <li className="tli">Id</li>
         <li className="tli">From</li>
         <li className="tli">To</li>
@@ -36,8 +50,9 @@ function Transactions(props) {
         <li className="tli">Type</li>
         <li className="tli">Link</li>
         </ul>
-        
-      {projects.map(createTable)}
+         */}
+      {/* {projects.map(createTable)} */}
+      {projects.filter(createTable => createTable.type.includes(selectValue)).map(createTable)}
     </div>
     </MainLayout>
     
