@@ -11,6 +11,7 @@ form {
     margin:auto;
     display: block;
     border: 1px solid #ccc;
+    border-radius: 10px;
     box-sizing: border-box;
   }
   
@@ -19,10 +20,11 @@ form {
     background-color: #04AA6D;
     color: white;
     padding: 14px 20px;
-    margin: 8px 0;
+    margin: 0px 0;
     border: none;
     cursor: pointer;
     width: 250px;
+    border-radius: 10px;
   }
   
   /* Add a hover effect for buttons */

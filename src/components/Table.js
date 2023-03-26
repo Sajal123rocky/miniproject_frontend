@@ -16,12 +16,14 @@ function Table(props) {
         <li className="tli" style={{marginLeft:"35px"}}>{props.url}</li>
     </ul> */}
     <div className="t1" style={{backgroundColor:status=== "Success" ? "green" : "red"}}>{props.status}</div> 
-    <div className="t2">{props.amount}</div>
-    <div className="t3">HASH:{props.transid}</div>
-    <div className="t4" style={{visibility:type=== "Withdraw" ? "" : "hidden"}}>{props.url}</div>
-    
+    <div className="t2">{props.amount} ETH</div>
+    <div className="t3">{props.type}</div>
+    <div className="t4">TXN HASH:{props.transid}</div>
     <div className="t5">From:{props.name}</div>
     <div className="t6">To:{props.to}</div> 
+    <div className="t7" style={{visibility:type=== "Withdraw" ? "" : "hidden"}}>{props.url}</div>
+    
+    
     </div>
     </div>
   );

@@ -7,14 +7,15 @@ function Login(){
     <div>
     <form action="action_page.php" method="post">
   <div class="imgcontainer">
-    <img src="https://www.w3schools.com/howto/img_avatar2.png" alt="Avatar" class="avatar"/>
+    <img src="img_avatar2.png" alt="Avatar" class="avatar"/>
   </div>
 
   <div class="container">
     
     <input className="inp" type="text" placeholder="Enter Username" name="uname" required/>
+    <br></br>
     <input className="inp" type="password" placeholder="Enter Password" name="psw" required/>
-
+    <br></br>
     <button className="but" type="submit">Login</button>
   </div>
 </form>

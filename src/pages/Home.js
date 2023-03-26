@@ -11,7 +11,7 @@ function Home() {
       <div className='home-head'>
       <div className="homeheadline">THE FUTURE OF FUNDING IS HERE</div>
       {/* <p className="home-tagline">Discover the new and safest experience with BlockChain</p> */}
-      <img className="home-image" src="https://img.freepik.com/free-vector/blockchain-technology-security-template-vector-data-payment-securing-blog-banner_53876-112174.jpg" alt="none"
+      <img className="home-image" src="blockchain-technology-security-template-vector-data-payment-securing-blog-banner_53876-112174.avif" alt="none"
         style={{width:"700px"}}
       />
       <div className="home1"><h2 style={{textAlign:"center", marginTop:"15px"}}>OUR VISION</h2><br/>

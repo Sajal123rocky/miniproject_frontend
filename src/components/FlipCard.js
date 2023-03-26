@@ -19,7 +19,6 @@ function FlipCard(props) {
 				background: 'rgba(29,28,35,255)',
 				color: 'green',
 				margin: '10px',
-                
 				borderRadius: '10%',
 				
 			}} onClick={() => setFlip(!flip)}>

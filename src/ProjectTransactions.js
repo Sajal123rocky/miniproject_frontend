@@ -1,8 +1,8 @@
 const  transdetails=[
     {
         id:1,
-        transid:1234,
-        amount:"Rs. "+2000,
+        transid:12345678910112,
+        amount:2000,
         name:"A",
         to:"B",
         type:"Withdraw",
@@ -11,8 +11,8 @@ const  transdetails=[
     },
     {
         id:2,
-        transid:1234,
-        amount:"Rs. "+3000,
+        transid:12345613254622,
+        amount:3000,
         name:"P",
         to:"Q",
         type:"Deposit",
@@ -22,8 +22,8 @@ const  transdetails=[
     },
     {
         id:3,
-        transid:1234,
-        amount:"Rs. "+4000,
+        transid:12345678915234,
+        amount:4000,
         name:"R",
         to:"S",
         type:"Deposit",
@@ -32,8 +32,8 @@ const  transdetails=[
     },
     {
         id:4,
-        transid:1234,
-        amount:"Rs. "+2000,
+        transid:12345678913689,
+        amount:2000,
         name:"X",
         to:"Y",
         type:"Withdraw",
