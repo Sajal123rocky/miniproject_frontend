@@ -18,7 +18,8 @@ function Home() {
       <p style={{textAlign:"center",fontSize:"25px",margin:"10px"}}>We’re Changing the Way the World Thinks About Funding</p>
       <br></br>
       <br></br>
-      <p style={{fontSize:"20px" ,lineHeight:"1.8",textAlign:"justify",margin:"5px 15px"}}>I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. I’m a great place for you to tell a story and let your users know a little more about you.</p></div>
+      <p style={{fontSize:"19px" ,lineHeight:"1.8",textAlign:"justify",margin:"5px 15px"}}>The potential for a blockchain-based fund system to completely transform how we invest,
+manage, and distribute money is enormous. Using blockchain technology, the system produces a distributed ledger that records all transactions in a transparent and immutable manner, making data tampering difficult.</p></div>
       <div className="home2"><h2 style={{textAlign:"center", marginTop:"15px"}}>CLICK IMAGE TO GET STARTED</h2>
       <br></br>
       <br></br>
